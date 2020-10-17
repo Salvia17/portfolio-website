@@ -93,6 +93,7 @@ a:active {
   padding: var(--standard-padding);
   background-color: var(--primary-color);
   border-radius: 0 0 20px 20px;
+  max-height: 250px;
 }
 
 .page-header__item {
@@ -103,6 +104,7 @@ a:active {
 .page-header__item:last-child {
   flex-grow: 1;
   text-align: right;
+  align-self: flex-end;
 }
 
 .navigation-list__item--active {
@@ -245,6 +247,9 @@ a:active {
     padding: var(--standard-padding);
     background-color: var(--primary-color);
     border-radius: 20px 20px 0 0;
+    position: relative;
+    top: auto;
+    left: auto;
   }
 }
 

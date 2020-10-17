@@ -94,6 +94,7 @@ a:active {
   padding: 20px;
   background-color: #dababb;
   border-radius: 0 0 20px 20px;
+  max-height: 250px;
 }
 
 .page-header__item {
@@ -108,6 +109,8 @@ a:active {
   -ms-flex-positive: 1;
   flex-grow: 1;
   text-align: right;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
 }
 
 .navigation-list__item--active {
@@ -271,6 +274,9 @@ a:active {
     padding: 20px;
     background-color: #dababb;
     border-radius: 20px 20px 0 0;
+    position: relative;
+    top: auto;
+    left: auto;
   }
 }
 
