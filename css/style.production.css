@@ -156,7 +156,7 @@ a:active {
  .grid__item:hover {
   opacity: 0.8;
  }
- 
+
  .profile__portrait {
   width: auto;
   max-height: 250px;
