@@ -5,3 +5,4 @@ Linters installed:
 
   Cross-browser testing:
   Firefox - might need to change the size of header, as it seems higher than it should be.
+  Safari brings back the white space at the bottom of the home page
