@@ -2,3 +2,6 @@ Linters installed:
   - w3c-validation;
   - linter-htmlhint;
   - linter-stylelint;
+
+  Cross-browser testing:
+  Firefox - might need to change the size of header, as it seems higher than it should be.
