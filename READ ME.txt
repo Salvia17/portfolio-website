@@ -1,0 +1,4 @@
+Linters installed:
+  - w3c-validation;
+  - linter-htmlhint;
+  - linter-stylelint;
