@@ -243,8 +243,7 @@ a:active {
   }
 
   .drawing {
-    display: flex;
-    justify-content: center;
+    justify-self: center;
   }
 
   .page-footer {
