@@ -17,8 +17,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  height: 100%;
   color: var(--color-text);
+  height: 100%;
 }
 
 h1 {
@@ -98,7 +98,7 @@ a:active {
 }
 
 .page-header__item {
-  flex: 1 1 100px;
+  flex: 0 1 100px;
   border-radius: 10%;
 }
 
@@ -131,6 +131,13 @@ a:active {
 }
 
 @supports (display: grid) {
+  .body-grid {
+    display: grid;
+    grid-gap: var(--grid-gap);
+    padding: 0;
+    margin: 0;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -245,11 +252,12 @@ a:active {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 100px;
+    width: 100%;
+    height: auto;
     padding: var(--standard-padding);
     background-color: var(--primary-color);
     border-radius: 20px 20px 0 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
   }
 }
