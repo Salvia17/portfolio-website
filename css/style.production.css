@@ -179,10 +179,13 @@ a:active {
     border-radius: 10px;
   }
 
- /* .grid__item:last-child {
+  .grid__item:last-child {
+    -ms-grid-column: 3;
     grid-column: 3 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
     grid-row: 1 / 3;
-  }*/
+  }
 
   .profile__portrait {
     width: auto;
@@ -237,6 +240,18 @@ a:active {
   .work__heading {
     text-align: center;
     padding: 30px;
+  }
+
+  .screenshot {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: inherit;
   }
 
   .about__grid {
