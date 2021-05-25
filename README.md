@@ -5,7 +5,7 @@
 This was the first project I have built, while taking CareerFoundry web development courses. The objective was to build a 
 responsive portfolio website with HTML and CSS that could potentially showcase upcoming projects I'd work on throughout the course.
 
-### View it live [HERE]()
+### View it live [HERE](https://salvia17.github.io/portfolio-website/index.html)
 
 ## Technologies:
 
