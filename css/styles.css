@@ -31,9 +31,10 @@ img {
   height: 80px;
  }
  
- .card-text {
-   margin-top: 15px;
- }
+.card-text {
+  margin-top: 15px;
+  text-align: justify;
+}
 
  .section-title {
    text-align: center;
@@ -79,4 +80,11 @@ img {
 
 .navbar {
   background-color: #006064;
+}
+
+@media all and (max-width: 992px) {
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
