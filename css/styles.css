@@ -34,6 +34,7 @@ img {
  
 .card-text {
   margin-top: 15px;
+  text-align: justify;
 }
 
 .section-title {
@@ -78,4 +79,11 @@ a:focus {
 
 .navbar {
   background-color: #006064;
+}
+
+@media all and (max-width: 992px) {
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
