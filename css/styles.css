@@ -10,10 +10,13 @@ body {
   
 }
 
-img {
-  max-width: -webkit-fill-available;
-  margin: 10px;
+img,
+.card-img-top {
+  max-width: 90%!important;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: .25rem;
+  align-self: center;
 }
 
 .card {
@@ -34,7 +37,6 @@ img {
  
 .card-text {
   margin-top: 15px;
-  text-align: justify;
 }
 
 .section-title {

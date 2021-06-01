@@ -18,10 +18,15 @@ body {
   
 }
 
-img {
-  max-width: -webkit-fill-available;
-  margin: 10px;
+img,
+.card-img-top {
+  max-width: 90%!important;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: .25rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .card {
@@ -32,47 +37,46 @@ img {
   -webkit-box-shadow: 8px 8px 15px #3E2723;
           box-shadow: 8px 8px 15px #3E2723;
 }
- .page-header {
-   padding: 80px;
- }
 
- .navbar {
+.page-header {
+  padding: 80px;
+}
+
+.navbar {
   height: 80px;
- }
+}
  
 .card-text {
   margin-top: 15px;
-  text-align: justify;
 }
 
- .section-title {
-   text-align: center;
-   margin: 80px;
- }
+.section-title {
+  text-align: center;
+  margin: 80px;
+}
 
- .btn {
-   text-decoration: none;
-   background-color: #006064;
-   border: 1px solid #ccc;
- }
+.btn {
+  text-decoration: none;
+  background-color: #006064;
+  border: 1px solid #ccc;
+}
 
-  .btn:hover {
-    background-color: #00796B;
-    text-decoration: none;
-    border: 1px solid #ccc;
- }
+.btn:hover {
+  background-color: #00796B;
+  text-decoration: none;
+  border: 1px solid #ccc;
+}
 
- a,
- a:hover,
- a:focus {
+a,
+a:hover,
+a:focus {
   text-decoration: none;
   color: #fff;
 }
 
 .nav-link.active,
 .nav-link.active:hover,
-.nav-link.active:focus
- {
+.nav-link.active:focus {
   background-color: transparent!important;
   text-decoration: none;
   color: #fff;
@@ -80,8 +84,7 @@ img {
 
 .nav-link,
 .nav-link:hover,
-.nav-link:focus
- {
+.nav-link:focus {
   background-color: transparent!important;
   text-decoration: none;
   color: #fff;
